@@ -3,19 +3,19 @@
 	src: url(../fonts/cookie.ttf);
 }
 html {
-	padding: 36px 0px 36px 0px;
+	padding: 16px 0px 16px 0px;
 	margin: 20px;
 	background-image: url(../pics/tumblr_static_8i9nw6y83dwkk4w8kggg8k8gk.png);
 }
 body {
-	width: 960px;
+	width: 920px;
 	margin: auto;
 	padding: 20px;
 	background-image: url(../pics/background-gray-linen.jpg);
 	border-radius: 25px;
 }
 .sandbox {
-	width: 960px;
+	width: 920px;
 	height: 1024px;
 	margin: 0px;
 	border: 2px solid black;

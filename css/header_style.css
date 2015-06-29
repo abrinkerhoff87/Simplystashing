@@ -1,38 +1,50 @@
 @font-face {
 	font-family: cookie;
-	src: url(../fonts/cookie.ttf);
+	src: url(../Cookie-Regular.ttf);
 }
 .headertext {
 	font-family: cookie;
 	width: 192px;
+	height: 202px;
 	color: #005074;
 	font-size: 27px;
-	text-align: center;
-	line-height: 10px;
+	line-height: 30px;
 	font-family: cookie, cursive;
 	font-weight: 400;
 	position: relative;
 	float: left;
+	display: table;
+}
+.headertext p {
+	text-align: center;
+	vertical-align: middle;
+	display: table-cell;
 }
 .headertextt {
 	font-family: cookie;
 	width: 192px;
+	height: 202px;
 	color: #005074;
 	font-size: 27px;
-	text-align: center;
-	line-height: 10px;
+	line-height: 30px;
 	font-family: cookie, cursive;
 	font-weight: 400;
 	position: relative;
-	float: right;
+	float: left;
+	display: table;
+}
+.headertextt p {
+	text-align: center;
+	vertical-align: middle;
+	display: table-cell;
 }
 #logo {
-	width: 576px;
+	width: 536px;
 	text-align: center;
 	overflow: hidden;
 	float: left;
 }
 #wrapper {
-	width: 960px;
+	width: 920px;
 	float: left;
 }
