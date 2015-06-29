@@ -7,8 +7,9 @@
     </head>
     <body>
     	<?php include 'header.html'; ?>
+    	<?php include 'navbar.html'; ?>
 		<div class="sandbox">
-			<?php echo "string"; ?>
+			dfasfda
 	  	</div>
   	</body>
 </html>

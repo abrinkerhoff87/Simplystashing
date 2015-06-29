@@ -1,3 +1,38 @@
-p {
-	margin: 0px;
+@font-face {
+	font-family: cookie;
+	src: url(../fonts/cookie.ttf);
+}
+.headertext {
+	font-family: cookie;
+	width: 192px;
+	color: #005074;
+	font-size: 27px;
+	text-align: center;
+	line-height: 10px;
+	font-family: cookie, cursive;
+	font-weight: 400;
+	position: relative;
+	float: left;
+}
+.headertextt {
+	font-family: cookie;
+	width: 192px;
+	color: #005074;
+	font-size: 27px;
+	text-align: center;
+	line-height: 10px;
+	font-family: cookie, cursive;
+	font-weight: 400;
+	position: relative;
+	float: right;
+}
+#logo {
+	width: 576px;
+	text-align: center;
+	overflow: hidden;
+	float: left;
+}
+#wrapper {
+	width: 960px;
+	float: left;
 }
