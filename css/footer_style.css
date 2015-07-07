@@ -1,0 +1,26 @@
+@font-face {
+	font-family: cookie;
+	src: url(../fonts/Cookie-Regular.ttf);
+}
+#wrapper_footer {
+	width: 920px;
+	height: ;
+    margin-top: 7px;
+    background-color: rgba(255,255,255,.3);
+}
+#bottomfooter {
+    background-color: rgba(127,127,127,.3);
+    width: 887px;
+    font-family: sans-serif;
+    padding: 0 15px 0 15px;
+	color: #005074;
+	font-size: 15px;
+	font-weight: 400;
+	position: relative;
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+}
+#bottomfooter p {
+    line-height: 10px;
+}
