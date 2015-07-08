@@ -15,9 +15,16 @@ body {
 	border-radius: 25px;
 }
 .sandbox {
-	width: 920px;
-	height: 1024px;
-	margin: 0px;
+	width: 916px;
+	margin: 0 0 22px 0;
 	border: 2px solid black;
 	overflow: hidden;
+}
+#slideShowImages {
+    width: 50%;
+    margin: 0 auto;
+}
+#slideShowImages img {
+    height: 360px;
+    width: 480px;
 }

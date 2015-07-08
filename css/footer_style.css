@@ -3,18 +3,40 @@
 	src: url(../fonts/Cookie-Regular.ttf);
 }
 #wrapper_footer {
-	width: 920px;
+	width: ;
 	height: ;
-    margin-top: 7px;
-    background-color: rgba(255,255,255,.3);
-}
-#bottomfooter {
+    padding-top: 10px;
     background-color: rgba(127,127,127,.3);
-    width: 887px;
+}
+#footernav {
+    text-align: center;
+    padding: 0;
+}
+#footernav ul {
+    display: inline-block;
+}
+#footernav li {
+    padding: 5px;
+    font-size: 12px;
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+    display: inline;
+    text-decoration: none;
+    text-align: center;
+}
+#footernav a {
+    text-decoration: none;
+}
+
+#footerlinks {
+    width: 759px; margin: 0 auto;
+}
+
+#bottomfooter {
+    width: 920px;
     font-family: sans-serif;
-    padding: 0 15px 0 15px;
 	color: #005074;
-	font-size: 15px;
+	font-size: 12px;
 	font-weight: 400;
 	position: relative;
     display: inline-block;
@@ -23,4 +45,25 @@
 }
 #bottomfooter p {
     line-height: 10px;
+}
+
+.ggbb {
+    background-color: #005074;
+    color: white;
+    font-size: 19px;
+    margin: 0 auto;
+    padding: 0 10px;
+    border: 5px solid #7f7f7f;
+    border-radius: 21px;
+    display: inline-block;
+    line-height: 2px;
+    vertical-align: top;
+}
+.footerimg {
+    border-radius: 10px;
+    height: 50px;
+    width: 50px;
+}
+.facebook {
+    display: inline-block;
 }
