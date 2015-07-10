@@ -6,7 +6,7 @@
 		<link href="css/header_style.css" type="text/css" rel="stylesheet">
 		<link href="css/navbar.css" type="text/css" rel="stylesheet">
         <link href="css/footer_style.css" type="text/css" rel="stylesheet">
-        <script src="slideShow.js"></script>       
+        <script src="scripts/slideShow.js"></script>       
     </head>
     <body>
     	<?php include 'header.html'; ?>
