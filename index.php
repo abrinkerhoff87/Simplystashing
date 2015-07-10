@@ -27,7 +27,8 @@
                 <img src="pics/imag0072-crop-u11778.jpg" alt="Slide 12" />
                 <img src="pics/imag0075-crop-u11787.jpg" alt="Slide 13" />
                 <img src="pics/imag0076-crop-u11796.jpg" alt="Slide 14" />
-                <img src="pics/imag0078-crop-u11805.jpg" alt="Slide 15" />      
+                <img src="pics/imag0078-crop-u11805.jpg" alt="Slide 15" />  
+                dfjahdjfhjhsf    
             </div>
 	  	</div>
         <?php include 'footer.html'; ?>
