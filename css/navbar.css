@@ -116,7 +116,8 @@ nav > ul > li > div ul > li:hover > a {
     border-style: solid;
     border-color: #7f7f7f;
     border-radius: 0px 0px 21px 21px;
-    box-shadow: 10px 10px 10px 1px rgba(0, 0, 0, .5)
+    box-shadow: 10px 10px 10px 1px rgba(0, 0, 0, .5);
+    z-index: 1;
 }
 #submenu li {
     width: 200px;
