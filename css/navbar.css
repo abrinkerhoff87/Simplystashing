@@ -13,13 +13,13 @@ nav {
     box-shadow: 10px 10px 10px 1px rgba(0, 0, 0, .5);
     margin: 22px 0px;
     padding: 0;
-  }
-  nav ul {
+}
+nav ul {
     list-style: none;
     padding: 0px;
     margin: 0px;
-  }
-  nav ul li {
+}
+nav ul li {
     display: table-cell;
     position: relative;
     list-style-type: none;
@@ -27,25 +27,23 @@ nav {
     height: 76px;
     vertical-align: middle;
     text-align: center;
-  }
-
-  nav li ul {
+}
+nav li ul {
     display: none;
-  }
-  nav ul li a {
+}
+nav ul li a {
     display: inline-block;
     padding: 20px 10px;
     text-decoration: none;
     color: #fff;
-
 }
-  nav ul li a:hover {
+nav ul li a:hover {
     color: #7f7f7f;
-  }
-  nav li:hover ul {
+}
+nav li:hover ul {
     display: inline-block;
     position: absolute;
-    left: 1px;
+    left: 0px;
     background-color: #003C54;
     margin-top: 15px;
     border-top: 0;
@@ -56,15 +54,32 @@ nav {
     border-color: #7f7f7f;
     border-radius: 0 0 21px 21px;
     z-index: 1;
-  }
-  nav li:hover li {
+}
+@-moz-document url-prefix() {
+    nav li:hover ul {
+    display: inline-block;
+    position: absolute;
+    left: 0px;
+    background-color: #003C54;
+    margin-top: 16px;
+    border-top: 0;
+    border-left: 5px;
+    border-right: 5px;
+    border-bottom: 5px;
+    border-style: solid;
+    border-color: #7f7f7f;
+    border-radius: 0 0 21px 21px;
+    z-index: 1;
+    }
+}
+nav li:hover li {
     float: left;
     width: 190px;
     text-align: center;
-  }
-  nav li:hover a {
+}
+nav li:hover a {
     color: white;
-  }
-  nav li:hover li a:hover {
+}
+nav li:hover li a:hover {
     
-  }
+}

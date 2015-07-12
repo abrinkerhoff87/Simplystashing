@@ -1,3 +1,4 @@
+
 <!Doctype html>
 <html>
  	<head>
@@ -5,6 +6,7 @@
 		<link href="css/main_style.css" type="text/css" rel="stylesheet">
 		<link href="css/header_style.css" type="text/css" rel="stylesheet">
 		<link href="css/navbar.css" type="text/css" rel="stylesheet">
+        <link href="css/home_page.css" type="text/css" rel="stylesheet">
         <link href="css/footer_style.css" type="text/css" rel="stylesheet">
         <script src="scripts/slideShow.js"></script>       
     </head>
@@ -28,6 +30,20 @@
                 <img src="pics/imag0075-crop-u11787.jpg" alt="Slide 13" />
                 <img src="pics/imag0076-crop-u11796.jpg" alt="Slide 14" />
                 <img src="pics/imag0078-crop-u11805.jpg" alt="Slide 15" />      
+            </div>
+            <div id="whatwesell">
+            
+            </div>
+            <div style="width: 80%; margin: 0 auto;">
+                <div style="width:  100px; height: 100px; border: 5px solid #7f7f7f; float: left;">
+            
+                </div>
+                <div style="width:  100px; height: 100px; border: 5px solid #7f7f7f; margin: 0 100px; float: left;">
+            
+                </div>
+                <div style="width:  100px; height: 100px; border: 5px solid #7f7f7f; float: left;">
+            
+                </div>
             </div>
 	  	</div>
         <?php include 'footer.html'; ?>
