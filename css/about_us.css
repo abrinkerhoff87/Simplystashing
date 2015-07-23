@@ -1,0 +1,14 @@
+@font-face {
+	font-family: cookie;
+	src: url(../fonts/Cookie-Regular.ttf);
+}
+.header_bottom {
+    border-bottom: 5px solid #7f7f7f;
+}
+#about_us_header {
+    font-family: Cookie;
+    font-size: 42px;
+    margin:  5px 55px 2px; 55px;
+    color: #005074;
+    text-align: center;
+}

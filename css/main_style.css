@@ -17,6 +17,6 @@ body {
 .sandbox {
 	width: 916px;
 	margin: 0 0 22px 0;
-	border: 2px solid black;
+	//border: 2px solid black;
 	overflow: hidden;
 }
